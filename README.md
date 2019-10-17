@@ -3,6 +3,7 @@
 ## Autor
 
 Aluno: José Aquiles Guedes de Rezende
+
 matricula: 160010331
 
 ## Descrição do problema
@@ -14,6 +15,8 @@ matricula: 160010331
 Para solucionar o problema é necessário ao acessar uma terra infértil simplismente avance até a próxima terra,
 ao acessar uma terra fértil coloque um espantalho e avance três terras, que é o alcance do espantalho.
 
+Dessa maneira consideramos que o espantalho estará na terra posterior a uma terra fértil visitada, com excessão de que acabe visitando a ultima e terra e esta ser uma terra fértil, nesse caso é posto o espantalho nela. 
+
 Como por exemplo o seguinte input:
 
     1
@@ -22,6 +25,5 @@ Como por exemplo o seguinte input:
 
 Os espantlhos hipoteticamente representados por "|" estariam espalhados assim:
 
-    #|..|..|..
+    #.|..|..|.
 
-Por mais que os espantalhos não estejam nos lugares corretos o problema só necessita do número de espantalhos o que no caso dessa solução sempre da o número correto.
